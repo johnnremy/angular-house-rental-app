@@ -12,7 +12,7 @@ import { HousingService } from '../housing.service';
     HousingLocationComponent
   ],
   template: `
-    <section>
+    <section class="search-form" style="text-align: center;">
       <form>
         <input type="text" placeholder="Filter by city" #filter>
         <button class="primary" type="button" (click)="filterResults(filter.value)">Search</button>
